@@ -1,26 +1,34 @@
-# HW---deliverables
+# AWS EC2 Web Server Project
 
-Must be in github repo link Screenshot of running web server Copy of the start up script saved as a .txt file Readme instructions on how to configure the EC2 with teardown instructions
-Must be in github repo link  
-Screenshot of running web server  
-Copy of the start up script saved as a .txt file  
+This repository provides a step-by-step guide to launching an **Amazon EC2 instance** and configuring it to run a web server. It is designed for students, beginners, and anyone learning AWS cloud fundamentals.
+
 Readme instructions on how to configure the EC2 with teardown instructions
+
+----
+
+## Overview
+- Launch and configure an EC2 instance
+- Set up security groups for inbound/outbound traffic
+- Install and start a web server (Apache)
+- Verify server accessibility in a browser
+- Teardown of EC2 instance
 
 ----
 
 ### EC2 Instance Deployment
 
 ### Instructions  
-1\. Log into aws console  
-2\. Search ec2 in searchbar  
-3\. Click on ec2  
-4\. Click on launch instances  
-5\. Name instance web server  
-6\. Create key pair called web server keypair  
-7\. Create an security group  
-8\. Select allow http  
-9\. Select advance details  
-10\. Get the script the following git repo and paste it in https://github.com/MookieWAF/bmc4/blob/main/ec2scrpit  
+1\. Launch an EC2 instance
+  1\. Log into aws console  
+  2\. Search ec2 in searchbar  
+  3\. Click on ec2  
+  4\. Click on launch instances  
+  5\. Name instance web server  
+  6\. Create key pair called web server keypair  
+  7\. Create an security group  
+  8\. Select allow http  
+  9\. Select advance details  
+  10\. Get the script the following git repo and paste it in  
 
 ~~~~
 #!/bin/bash
@@ -74,8 +82,9 @@ echo "
 rm -f /tmp/local_ipv4 /tmp/az /tmp/macid
 ~~~~
 
-11.Wait for the server to stop initializing  
-12.Then paste dns into browser the url
+2. Test the server
+  11.Wait for the server to stop initializing  
+  12.Then paste dns into browser the url
 
 Now we have an running web server
 ![alt text](https://github.com/rahde-class-7/HW---deliverables/blob/main/Images/Server-Screenshot.jpg?raw=true)
