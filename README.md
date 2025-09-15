@@ -78,5 +78,5 @@ rm -f /tmp/local_ipv4 /tmp/az /tmp/macid
 12.Then paste dns into browser the url
 
 Now we have an running web server
-
+![alt text](https://github.com/rahde-class-7/HW---deliverables/blob/main/homework%201%20-%20Google%20Docs_page-0001.jpg?raw=true)
 
